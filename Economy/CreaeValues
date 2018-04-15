@@ -1,0 +1,12 @@
+local plr = game:GetService("Players").localplayer
+repeat wait() until plr
+
+function CreateFiles(p)
+		local new_ld = Instance.new("NumberValue", p)
+		local new_Cash = Instance.new("NumberValue", new_Id)
+		new_id.Name = "leaderstats"
+		new_Cash.Name = "Cash"
+		new_Cash.Value = 250 -- Adds 250$ As a join gift
+end
+
+game:GetService("Players").PlayerAdded:Connect(CreateFiles(plr))
