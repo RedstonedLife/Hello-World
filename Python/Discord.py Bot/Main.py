@@ -35,4 +35,6 @@ async def TypeError(context, e):
 async def on_ready():
   print("Bot is ready for usage!")
   
+bot.run("Bot token") # Instead of Bot Token use the user token usually in the developer
+  
   
