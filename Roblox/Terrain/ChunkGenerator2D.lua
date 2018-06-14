@@ -11,4 +11,7 @@ local wolrd = workspace.World
 function CreateChunk()
     local newChunkFolder = Instance.new("Folder", world)
     newChunkFolder.Name = "Chunk_"..chunkCount
+    table.add(chunks,"Chunk_Path_"..chunkCount)
+    chunks[chunkCount] = world:WaitForChild("Chunk_"..chunkCount)
+    
 end
