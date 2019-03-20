@@ -1,3 +1,3 @@
-# Code Scripts
-Here i post random codes in many languages
-ranging from Java - Lua
+# Hello World
+Here I post Hello World for many programming languages...
+If you know any I'd be more then glad to accept your Pull Request if its a language yet to be added!
